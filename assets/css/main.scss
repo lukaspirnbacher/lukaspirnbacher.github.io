@@ -29,18 +29,37 @@ $doc-font-size-x-large: 20px;   // large monitors
 /* Desktop only (screens at least 1024px wide) */
 @media (min-width: 1024px) {
 
-  /* Wider text: remove the empty column the theme keeps free on the right */
-  .page {
-    padding-inline-end: 0 !important;
-  }
-
-  /* Sidebar: not faded (theme: 75% until you hover over it) */
+  /* Sidebar: a bit wider, not faded (theme: 75% until you hover over it),
+     and everything in it slightly larger (1.12 = 12% larger than theme default) */
   .sidebar {
+    width: calc(240px - 1em) !important;
     opacity: 1 !important;
+    font-size: 1.12em;
   }
 
-  /* Larger profile photo (theme: max. 110px); it can never exceed the sidebar width */
+  /* Profile photo (theme: max. 110px); it can never exceed the sidebar width */
   .author__avatar img {
-    max-width: 200px !important;
+    max-width: 220px !important;
+  }
+
+  /* Text column: next to the sidebar, with a small free margin on the right.
+     Larger padding-inline-end = narrower text. */
+  .page {
+    width: calc(100% - 240px) !important;
+    padding-inline-end: 40px !important;
+  }
+}
+
+/* Large monitors (at least 1280px wide) */
+@media (min-width: 1280px) {
+  .sidebar {
+    width: calc(320px - 1em) !important;
+  }
+  .author__avatar img {
+    max-width: 250px !important;
+  }
+  .page {
+    width: calc(100% - 320px) !important;
+    padding-inline-end: 100px !important;
   }
 }
