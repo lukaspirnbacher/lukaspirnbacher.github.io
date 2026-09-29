@@ -20,7 +20,7 @@ repository  : "lukaspirnbacher/lukaspirnbacher.github.io"
 author:
   name     : "Lukas Pirnbacher"
   avatar   : "/assets/images/profile.jpg"
-  bio      : "PhD Candidate in Economics @ WU Vienna"
+  bio      : "PhD Candidate @ WU Vienna"
   location : "Vienna, Austria"
   links:
     - label: "Email"
