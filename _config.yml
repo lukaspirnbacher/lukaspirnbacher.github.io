@@ -18,7 +18,7 @@ repository  : "lukaspirnbacher/lukaspirnbacher.github.io"
 
 # Sidebar (photo, title line and links shown on every page)
 author:
-  name     : "Lukas Pirnbacher"
+  #name     : "Lukas Pirnbacher"
   avatar   : "/assets/images/profile.jpg"
   bio      : "PhD Candidate @ WU Vienna"
   location : "Vienna, Austria"
