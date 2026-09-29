@@ -63,3 +63,15 @@ $doc-font-size-x-large: 20px;   // large monitors
     padding-inline-end: 100px !important;
   }
 }
+
+/* Less space between a bold label ("Lecturer", "Teaching Assistance") and the list below it.
+   More negative = tighter; 0 = theme default. */
+.page__content p + ul {
+  margin-top: -0.9em;
+}
+
+/* More space between the page title and the first heading ("Publications").
+   Larger = more space. */
+.page__content > h2:first-child {
+  margin-top: 1.5em;
+}
