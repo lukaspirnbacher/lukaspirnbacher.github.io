@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------------------
+# Site settings for lukaspirnbacher.github.io
+# Theme: Minimal Mistakes (same theme as ulrichwohak.eu), loaded by GitHub Pages
+# After changing this file, GitHub rebuilds the site automatically (~1 minute).
+# ---------------------------------------------------------------------------
+
+remote_theme          : "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin : "default"   # alternatives: "air", "contrast", "mint", "dirt"
+
+# Site
+locale      : "en-US"
+title       : "Lukas Pirnbacher"
+name        : "Lukas Pirnbacher"
+description : "Lukas Pirnbacher – PhD Candidate in Economics at WU Vienna. Empirical industrial organization and structural econometrics."
+url         : "https://lukaspirnbacher.github.io"   # change if you add your own domain later
+baseurl     : ""
+repository  : "lukaspirnbacher/lukaspirnbacher.github.io"
+
+# Sidebar (photo, title line and links shown on every page)
+author:
+  name     : "Lukas Pirnbacher"
+  avatar   : "/assets/images/profile.jpg"
+  bio      : "PhD Candidate in Economics @ WU Vienna"
+  location : "Vienna, Austria"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:lukas.pirnbacher@wu.ac.at"
+    - label: "WU Profile"
+      icon: "fas fa-fw fa-building-columns"
+      url: "https://www.wu.ac.at/en/economics/people/pirnbacher-l"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0003-8129-3414"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lukaspirnbacher"
+    # - label: "Google Scholar"
+    #   icon: "fas fa-fw fa-graduation-cap"
+    #   url: "https://scholar.google.com/citations?user=XXXXXXX"
+
+# Footer
+footer:
+  links: []
+copyright: "Lukas Pirnbacher"
+atom_feed:
+  hide: true            # no blog, so no "Feed" link in the footer
+
+# Default layout for all pages: sidebar with photo on the left
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Reading files
+include:
+  - _pages
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Plugins (all supported by GitHub Pages)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
