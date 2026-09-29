@@ -5,12 +5,35 @@ search: false
 
 @charset "utf-8";
 
+/* ---------- 1. Theme settings (must come BEFORE the imports) ---------- */
+
+/* Base font size per screen width. Everything scales with these.
+   Theme defaults: 16 / 18 / 20 / 22px, which is quite large on desktop. */
+$doc-font-size:         15px;   // phones
+$doc-font-size-medium:  15px;   // tablets
+$doc-font-size-large:   16px;   // laptops
+$doc-font-size-x-large: 17px;   // large monitors
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom: menu links directly next to the name (left) instead of right-aligned */
+/* ---------- 2. Overrides (must come AFTER the imports) ---------- */
+
+/* Menu links directly next to the name instead of right-aligned */
 .greedy-nav .visible-links {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+}
+
+/* Profile photo: larger on desktop (theme default: max. 110px) */
+@media (min-width: 1024px) {
+  .author__avatar img {
+    max-width: 180px;
+  }
+}
+
+/* Sidebar at full strength (the theme fades it to 75% until you hover over it) */
+.sidebar {
+  opacity: 1;
 }
