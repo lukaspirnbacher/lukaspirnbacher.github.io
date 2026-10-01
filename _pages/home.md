@@ -1,7 +1,10 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "Lukas Pirnbacher"
+classes: home-page
 ---
+
+<h1 class="page__title">Welcome!</h1>
 
 I am a PhD candidate at [WU Vienna University of Economics and Business](https://www.wu.ac.at/en/economics).
 
