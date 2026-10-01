@@ -75,3 +75,8 @@ $doc-font-size-x-large: 20px;   // large monitors
 .page__content > h2:first-child {
   margin-top: 1.5em;
 }
+
+/* Home page: title tag says "Lukas Pirnbacher", visible heading says "Welcome!" */
+.home-page #page-title {
+  display: none;
+}
