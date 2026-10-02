@@ -54,7 +54,7 @@ $doc-font-size-x-large: 20px;   // large monitors
      Larger padding-inline-end = narrower text. */
   .page {
     width: calc(100% - 240px) !important;
-    padding-inline-end: 70px !important; /* change text width */
+    padding-inline-end: 100px !important; /* change text width */
   }
 }
 
@@ -68,7 +68,7 @@ $doc-font-size-x-large: 20px;   // large monitors
   }
   .page {
     width: calc(100% - 320px) !important;
-    padding-inline-end: 150px !important; /* change text width */
+    padding-inline-end: 180px !important; /* change text width */
   }
 }
 
