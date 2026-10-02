@@ -28,7 +28,15 @@ $doc-font-size-x-large: 20px;   // large monitors
 
 /* Desktop only (screens at least 1024px wide) */
 @media (min-width: 1024px) {
+   /* Blocksatz for body text */
+.page__content p,
+.page__content li {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
 
+   
   /* Sidebar: a bit wider, not faded (theme: 75% until you hover over it),
      and everything in it slightly larger (1.12 = 12% larger than theme default) */
   .sidebar {
