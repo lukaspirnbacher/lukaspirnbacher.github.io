@@ -5,7 +5,8 @@ title: "Research"
 
 ## Publications
 
-**Market Power and Regulation in Pharmaceutical Markets** (with [Klaus Gugler](https://www.wu.ac.at/en/economics/people/gugler-k) and [Florian Szücs](https://www.wu.ac.at/en/economics/people/szuecs-f)), *Journal of the European Economic Association*, forthcoming. [DOI](https://doi.org/10.1093/jeea/jvag010) · [Replication package](https://zenodo.org/records/18336693)
+**Market Power and Regulation in Pharmaceutical Markets** (with [Klaus Gugler](https://www.wu.ac.at/en/economics/people/gugler-k) and [Florian Szücs](https://www.wu.ac.at/en/economics/people/szuecs-f)), *Journal of the European Economic Association*, forthcoming.
+[DOI](https://doi.org/10.1093/jeea/jvag010) · [Replication package](https://zenodo.org/records/18336693)
 
 <details markdown="1">
 <summary><strong>Abstract</strong></summary>
