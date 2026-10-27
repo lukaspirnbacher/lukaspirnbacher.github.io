@@ -17,7 +17,7 @@ We exploit the regulatory environment in the Austrian pharmaceutical market to s
 
 ## Working Papers 
 
-- [Milking the Demand Curve: Consumer and Firm Behavior in Inflationary Times](https://cepr.org/system/files/publication-files/DP22080.pdf) (with [Alon Eizenberg](https://aloneizenberg.github.io/), [Klaus Gugler](https://www.wu.ac.at/en/economics/people/gugler-k) and [Florian Szücs](https://www.wu.ac.at/en/economics/people/szuecs-f)), CEPR Discussion Paper 22080
+[Milking the Demand Curve: Consumer and Firm Behavior in Inflationary Times](https://cepr.org/system/files/publication-files/DP22080.pdf) (with [Alon Eizenberg](https://aloneizenberg.github.io/), [Klaus Gugler](https://www.wu.ac.at/en/economics/people/gugler-k) and [Florian Szücs](https://www.wu.ac.at/en/economics/people/szuecs-f)), CEPR Discussion Paper 22080
 
 <details markdown="1">
 <summary><strong>Abstract</strong></summary>
@@ -33,6 +33,8 @@ nearly 30% of the observed increase in prices and the bulk of the increase in re
 the overshifting of costs to retail prices. Nonetheless, counterfactual analyses reveal that a more
 competitive retail sector would have dampened the response of milk prices to the inflationary
 shock.
+
+</details>
 
 ## Work in Progress
 
