@@ -38,6 +38,6 @@ shock.
 
 ## Work in Progress
 
-- **A Prescription for Coordination? Price Regulation and Focal Points**
+- **A Prescription for Coordination? Generic Drug Price Regulation and Focal Points**
 - **Demand Estimation and Market Size Uncertainty: A Bayesian Approach**
 
