@@ -22,17 +22,8 @@ We exploit the regulatory environment in the Austrian pharmaceutical market to s
 <details markdown="1">
 <summary><strong>Abstract</strong></summary>
 
-We study the effect of the recent inflationary environment on consumer and firm behavior in the
-Austrian market for milk. Combining detailed scanner data on households' milk purchases with
-farm-gate raw milk prices, we document sharp increases in both producer and consumer milk
-prices, as well as above-unity pass-through, at the onset of the inflationary episode. We rationalize
-these patterns via an estimated model of demand and supply. Consistent with some theoretical
-predictions, exposure to inflation reduces households' price sensitivity. This channel explains
-nearly 30% of the observed increase in prices and the bulk of the increase in retailers' margins in
-2022. Retailer coordination is not needed to explain the observed data patterns and, in particular,
-the overshifting of costs to retail prices. Nonetheless, counterfactual analyses reveal that a more
-competitive retail sector would have dampened the response of milk prices to the inflationary
-shock.
+We study the effect of the recent inflationary environment on consumer and firm behavior in the Austrian market for milk. Combining detailed scanner data on households' milk purchases with farm-gate raw milk prices, we document sharp increases in both producer and consumer milk prices, as well as above-unity pass-through, at the onset of the inflationary episode. We rationalize these patterns via an estimated model of demand and supply. Consistent with some theoretical
+predictions, exposure to inflation reduces households' price sensitivity. This channel explains nearly 30% of the observed increase in prices and the bulk of the increase in retailers' margins in 2022. Retailer coordination is not needed to explain the observed data patterns and, in particular, the overshifting of costs to retail prices. Nonetheless, counterfactual analyses reveal that a more competitive retail sector would have dampened the response of milk prices to the inflationary shock.
 
 </details>
 
